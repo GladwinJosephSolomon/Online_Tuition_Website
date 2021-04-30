@@ -612,6 +612,8 @@ a.navbar-brand img {
 
 .img-responsive {
 	max-width: 100%;
+	width:  100px;
+    height: 200px;
 }
 
 .slide_text h3 {
@@ -2245,3 +2247,11 @@ section.inner_banner h3 {
 	background: #fff;
 	color: #12385b;
 }
+.contact_section {
+	height:fit-content;
+}
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
